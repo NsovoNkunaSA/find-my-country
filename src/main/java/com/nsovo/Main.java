@@ -25,7 +25,7 @@ public class Main {
 
 
         //add the country to the url
-        String url  =  "https://api.restcountries.com/countries/v5/names.common/"
+        String url  =  "https://countries.dev/countries/"
                 +encodedCountryName;
 
         HttpClient client  = HttpClient.newHttpClient();
