@@ -31,7 +31,7 @@ public class Main {
         String url = "https://countries.dev/name/" + encodedCountryName;
 
         HttpClient client = HttpClient.newHttpClient();
-
+ 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(url))
                 .header("Accept", "application/json")
