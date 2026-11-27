@@ -57,7 +57,7 @@ public class Main {
                 JsonNode country = results.get(0);
 
                 System.out.println("\nCOUNTRY DETAILS");
-                System.out.println("----------------------");
+                System.out.println("  ");
                 System.out.println("Name: " + country.path("name").asText());
                 System.out.println("Capital: " + country.path("capital").asText());
                 System.out.println("Region: " + country.path("region").asText());
